@@ -1,0 +1,125 @@
+# =============================================================================
+# .gitignore — CRISP grokking paper
+# =============================================================================
+# Strict policy: only commit files needed to read the paper or reproduce
+# the experiments. Everything else stays out.
+
+# ----- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.installed.cfg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.envrc
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----- LaTeX / PDF build artifacts -------------------------------------------
+# (We commit paper.pdf and figure PDFs intentionally; everything else is out.)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+*.dvi
+*.ps
+texput.log
+_minted-*/
+*.brf
+*.idx
+*.ilg
+*.ind
+*.maf
+*.mtc
+*.mtc[0-9]*
+*.thm
+*.upa
+*.upb
+*.run.xml
+*-blx.bib
+
+# ----- ML / training output --------------------------------------------------
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.npy
+*.npz
+# Exception: keep released results JSONs (in /results)
+
+# ----- Editor / OS junk ------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.~lock.*
+.history/
+
+# ----- Secrets (defense in depth) --------------------------------------------
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+secrets.yaml
+secrets.json
+credentials.json
+.aws/
+.gcp/
+.ssh/
+
+# ----- Project-specific ------------------------------------------------------
+# Internal review/dev logs from the original research pipeline — never publish
+artifacts/
+peer_review.md
+.claude/
+.cursor/
+*.local
