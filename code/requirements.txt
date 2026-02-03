@@ -1,0 +1,6 @@
+# Pinned to lower bounds known to work; newer versions should be fine.
+# CPU-only torch is sufficient — the sweep takes ~2h on CPU vs ~30 min on a GPU.
+torch>=2.1
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
