@@ -1,0 +1,207 @@
+{
+  "total_runs": 120,
+  "grokked_runs": 69,
+  "grokking_rate": 0.575,
+  "per_condition": {
+    "w32_f0.2": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.001,
+      "mean_delay": null
+    },
+    "w32_f0.3": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.0013333333333333333,
+      "mean_delay": null
+    },
+    "w32_f0.4": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.013666666666666667,
+      "mean_delay": null
+    },
+    "w32_f0.5": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.6166666666666667,
+      "mean_delay": null
+    },
+    "w32_f0.6": {
+      "grok_rate": 0.3333333333333333,
+      "mean_test_acc": 0.7436666666666666,
+      "mean_delay": 3000.0
+    },
+    "w32_f0.7": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.8416666666666667,
+      "mean_delay": 4000.0
+    },
+    "w32_f0.8": {
+      "grok_rate": 0.6666666666666666,
+      "mean_test_acc": 0.8253333333333334,
+      "mean_delay": 3000.0
+    },
+    "w32_f0.9": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.8653333333333334,
+      "mean_delay": null
+    },
+    "w48_f0.2": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.0003333333333333333,
+      "mean_delay": null
+    },
+    "w48_f0.3": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.007333333333333334,
+      "mean_delay": null
+    },
+    "w48_f0.4": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.14333333333333334,
+      "mean_delay": null
+    },
+    "w48_f0.5": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.619,
+      "mean_delay": null
+    },
+    "w48_f0.6": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.8799999999999999,
+      "mean_delay": 3333.3333333333335
+    },
+    "w48_f0.7": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9606666666666666,
+      "mean_delay": null
+    },
+    "w48_f0.8": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9483333333333333,
+      "mean_delay": null
+    },
+    "w48_f0.9": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9700000000000001,
+      "mean_delay": null
+    },
+    "w64_f0.2": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.0003333333333333333,
+      "mean_delay": null
+    },
+    "w64_f0.3": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.013333333333333334,
+      "mean_delay": null
+    },
+    "w64_f0.4": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.39699999999999996,
+      "mean_delay": null
+    },
+    "w64_f0.5": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.8203333333333335,
+      "mean_delay": 8333.333333333334
+    },
+    "w64_f0.6": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9419999999999998,
+      "mean_delay": 2333.3333333333335
+    },
+    "w64_f0.7": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9763333333333333,
+      "mean_delay": null
+    },
+    "w64_f0.8": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.987,
+      "mean_delay": null
+    },
+    "w64_f0.9": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9966666666666667,
+      "mean_delay": null
+    },
+    "w96_f0.2": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.0,
+      "mean_delay": null
+    },
+    "w96_f0.3": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.037,
+      "mean_delay": null
+    },
+    "w96_f0.4": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.7066666666666667,
+      "mean_delay": null
+    },
+    "w96_f0.5": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.943,
+      "mean_delay": 3000.0
+    },
+    "w96_f0.6": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9896666666666666,
+      "mean_delay": 666.6666666666666
+    },
+    "w96_f0.7": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9969999999999999,
+      "mean_delay": null
+    },
+    "w96_f0.8": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9993333333333334,
+      "mean_delay": null
+    },
+    "w96_f0.9": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 1.0,
+      "mean_delay": null
+    },
+    "w128_f0.2": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.0,
+      "mean_delay": null
+    },
+    "w128_f0.3": {
+      "grok_rate": 0.0,
+      "mean_test_acc": 0.063,
+      "mean_delay": null
+    },
+    "w128_f0.4": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.8623333333333333,
+      "mean_delay": 7333.333333333333
+    },
+    "w128_f0.5": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9899999999999999,
+      "mean_delay": 1333.3333333333333
+    },
+    "w128_f0.6": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 0.9986666666666667,
+      "mean_delay": null
+    },
+    "w128_f0.7": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 1.0,
+      "mean_delay": null
+    },
+    "w128_f0.8": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 1.0,
+      "mean_delay": null
+    },
+    "w128_f0.9": {
+      "grok_rate": 1.0,
+      "mean_test_acc": 1.0,
+      "mean_delay": null
+    }
+  }
+}
