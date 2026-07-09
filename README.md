@@ -1,6 +1,6 @@
 # CRISP: Unifying Grokking and Scaling Laws via Phase Transitions in Feature Space
 
-**NeurIPS 2025 submission — anonymous review version**
+**Independent Research Manuscript**
 
 Grokking (delayed generalization) and neural scaling laws (smooth power-law
 improvement) are usually studied as separate phenomena. This paper proves they
@@ -53,7 +53,7 @@ The PDF: [`paper.pdf`](paper.pdf) (18 pages, 9 main + appendices + checklist).
 
 ```
 .
-├── paper.pdf              # final NeurIPS submission (9 main + appendix + checklist)
+├── paper.pdf              # research manuscript (9 main + appendix + checklist)
 ├── paper/                 # LaTeX source — `pdflatex paper.tex` reproduces paper.pdf
 │   ├── paper.tex
 │   ├── neurips_2025.sty
@@ -178,17 +178,12 @@ are committed.
 
 ## Citation
 
-The paper is currently under double-blind review. After acceptance/rejection
-this README will be updated with a permanent citation.
-
-For now:
-
 ```bibtex
 @misc{crisp2026,
   title  = {{CRISP}: Unifying Grokking and Scaling Laws via Phase Transitions in Feature Space},
   author = {Anonymous},
   year   = {2026},
-  note   = {Submitted to NeurIPS 2025; anonymous review version}
+  note   = {Prepared as an independent research manuscript}
 }
 ```
 
