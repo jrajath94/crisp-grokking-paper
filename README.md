@@ -36,8 +36,8 @@ fraction $f_c$ per width (smallest $f$ where $\geq 50\%$ of seeds grok).*
 Key findings:
 
 - **69 / 120 runs grokked** (57.5% rate) with a sharp 0/1 phase boundary.
-- **0 / 51 sub-critical runs** ever grokked, even at full 10K-step budget —
-  the threshold is a genuine wall, not a delay.
+- **1 / 51 sub-critical runs** ever grokked (w=32, f=0.6, seed=42), with a sharp wall
+  below the critical threshold and plateau above it.
 - $n_c$ **decreases** with width: 1,546 → 1,325 → 1,105 → 1,105 → 884 as
   $w$ goes 32 → 48 → 64 → 96 → 128. This is the **opposite** of the
   naive linear prediction and is reconciled in the paper via an
@@ -172,7 +172,7 @@ are committed.
 - **Falsification tests are pre-specified.** Section 4.5 lists the
   three tests with quantitative pass/fail criteria fixed before the
   sweep. F2 (sub-critical extended training) gives the strongest
-  signal: 0 / 51 sub-critical runs grokked.
+  signal: 1 / 51 sub-critical runs grokked, confirming a phase boundary.
 
 ---
 
